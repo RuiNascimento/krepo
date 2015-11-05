@@ -12,16 +12,16 @@ import ntpath
 ##CREDIT TO LEE @ COMMUNITY BUILDS FOR WRITING THE FORCE CLOSE FUNCTION AND ANY OTHER DEVS WHO CREATED ANY MODULES USED##
 
 USER_AGENT = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'
-base='https://github.com/RuiNascimento/kalasherepo'
-ADDON=xbmcaddon.Addon(id='plugin.video.kalashebuild')
+base='https://github.com/RuiNascimento/krepo'
+ADDON=xbmcaddon.Addon(id='plugin.video.kbuild')
     
     
 VERSION = "2.0"
-PATH = "Kalasherepo"            
+PATH = "KRepo"            
 
     
 def CATEGORIES():
-    link = OPEN_URL('https://raw.githubusercontent.com/RuiNascimento/kalasherepo/master/builds.txt').replace('\n','').replace('\r','')
+    link = OPEN_URL('https://raw.githubusercontent.com/RuiNascimento/krepo/master/builds.txt').replace('\n','').replace('\r','')
     match = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(link)
     for name,url,iconimage,fanart,description in match:
         addDir(name,url,1,iconimage,fanart,description)
