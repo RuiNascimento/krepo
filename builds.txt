@@ -1,4 +1,4 @@
-{\rtf1\ansi\/\cocoartf1347\cocoasubrtf570
+﻿{\rtf1\ansi\/\cocoartf1347\cocoasubrtf570
 {\fonttbl\f0\fmodern\fcharset0 Courier;}
 {\colortbl;\red255\green255\blue255;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
@@ -7,8 +7,8 @@
 
 
 \f0\fs26 \cf0 \expnd0\expndtw0\kerning0
-name="The Beast"\
+name="Versão 1.0"\
 url="https://archive.org/download/build_20151023/build.zip"
-img="http://spartanpixel.net/Kodi/thebeast/img/theBeastIcon.jpg"\
-fanart="http://spartanpixel.net/Kodi/thebeast/img/theBeastSplash.jpg"\
+img="https://raw.githubusercontent.com/RuiNascimento/kalasherepo/master/Images/v1.0_256x256.png"\
+fanart="https://raw.githubusercontent.com/RuiNascimento/kalasherepo/master/Images/update_1920x1080.jpg"\
 description="Versão 1.0"}
