@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.kalashe.repo" name="Kalashe Repo" version="0.0.1" provider-name="KalasheN">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Kalashe Repo">
+            <info compressed="false">https://raw.githubusercontent.com/RuiNascimento/kalasherepo/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/RuiNascimento/kalasherepo/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/RuiNascimento/kalasherepo/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repository for my collection of addons and my builds</summary>
+            <description>Repository of my favorite addons and my custom kodi builds</description>
+            <platform>all</platform>
+    </extension>
+</addon>
