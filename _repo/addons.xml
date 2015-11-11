@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.kbuild.win" name="KBuilds Windows" version="0.0.1" provider-name="krepo">
+<addon id="plugin.video.kbuildwin" name="KBuilds Windows" version="0.0.1" provider-name="krepo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -18,7 +18,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.kbuild.android" name="KBuilds Android" version="0.0.1" provider-name="krepo">
+<addon id="plugin.video.kbuildandroid" name="KBuilds Android" version="0.0.1" provider-name="krepo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -36,7 +36,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.kbuild.rpi2" name="KBuilds" version="0.0.1" provider-name="krepo">
+<addon id="plugin.video.kbuildrpi2" name="KBuilds" version="0.0.1" provider-name="krepo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
