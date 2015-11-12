@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <addon id="repository.krepo" name="KRepo" version="0.0.1" provider-name="kalashenicof">
+    <addon id="repository.krepo" name="KRepo" version="0.0.2" provider-name="kalashenicof">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="KRepo">
-            <info compressed="false">https://raw.githubusercontent.com/RuiNascimento/krepo/master/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/RuiNascimento/krepo/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/RuiNascimento/krepo/master/_repo/</datadir>
+            <info compressed="false">https://github.com/RuiNascimento/krepo/master/_repo/addons.xml</info>
+            <checksum>https://github.com/RuiNascimento/krepo/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/RuiNascimento/krepo/master/_repo/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
