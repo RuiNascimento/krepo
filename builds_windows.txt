@@ -7,8 +7,8 @@
 
 
 \f0\fs26 \cf0 \expnd0\expndtw0\kerning0
-name="Versão 1.0"\
+name="Entonces meu puto, instala e depois diz se funciona"\
 url="https://archive.org/download/build_20151111/build.zip"
 img="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/v1.0_512x512.png"\
 fanart="https://raw.githubusercontent.com/RuiNascimento/kalasherepo/master/Images/update_1920x1080.jpg"\
-description="Entonces meu puto, instala e vê se funciona sff"}
+description="Versão 1.0"}
