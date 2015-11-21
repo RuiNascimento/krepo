@@ -12,3 +12,10 @@ url="https://archive.org/download/build_20151111/build.zip"
 img="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/v1.0_512x512.png"\
 fanart="https://raw.githubusercontent.com/RuiNascimento/kalasherepo/master/Images/update_1920x1080.jpg"\
 description="Versão 1.0"}
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+name="OpenElec"\
+url="https://archive.org/download/build_20151121/build.zip"
+img="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/v1.0_512x512.png"\
+fanart="https://raw.githubusercontent.com/RuiNascimento/kalasherepo/master/Images/update_1920x1080.jpg"\
+description="OpenElec"}
