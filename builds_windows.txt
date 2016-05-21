@@ -7,15 +7,8 @@
 
 
 \f0\fs26 \cf0 \expnd0\expndtw0\kerning0
-name="Versão 1.0"\
-url="https://archive.org/download/build_20151111/build.zip"
-img="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/v1.0_512x512.png"\
-fanart="https://raw.githubusercontent.com/RuiNascimento/kalasherepo/master/Images/update_1920x1080.jpg"\
-description="Versão 1.0"}
-
-\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
-name="Kodiflix - PT MOD"\
-url="https://archive.org/download/win_build_kodiflix_201601/win_build_kodiflix.zip"
-img="https://raw.githubusercontent.com/RuiNascimento/krepo/4d4771431520ff2f07786a316e45cb0cc91a10b7/Images/kodiflix%20logo.png"\
-fanart="https://github.com/RuiNascimento/krepo/raw/4d4771431520ff2f07786a316e45cb0cc91a10b7/Images/kodiflix%20splash.png"\
-description="Kodiflix - PT MOD"}
+name="Rui Build"\
+url="https://archive.org/download/KodiBuild-Rui/Kodi_build.zip"
+img="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/ruibuild_logo.png"\
+fanart="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/ruibuild_splash.png"\
+description="Rui Build"}
