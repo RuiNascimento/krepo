@@ -16,7 +16,7 @@ description="Rui Build 64bit"}
 
 \f0\fs26 \cf0 \expnd0\expndtw0\kerning0
 name="Rui Build 32bit"\
-url="https://archive.org/download/KodiBuild-Rui/Kodi_build_32bit.zip"
+url="https://archive.org/download/KodiBuild-Rui/kodi_build_32bit.zip"
 img="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/ruibuild_logo.png"\
 fanart="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/ruibuild_splash.png"\
 description="Rui Build 32bit"}
