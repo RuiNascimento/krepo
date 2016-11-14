@@ -8,10 +8,10 @@
 
 \f0\fs26 \cf0 \expnd0\expndtw0\kerning0
 name="Rui Build 64bit"\
-url="https://archive.org/download/KodiBuild-Rui/Kodi_build.zip"
+url="https://archive.org/download/KodiBuild-Rui/Kodi_build_64bit_windows.zip"
 img="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/ruibuild_logo.png"\
 fanart="https://raw.githubusercontent.com/RuiNascimento/krepo/master/Images/ruibuild_splash.png"\
-description="Rui Build 64bit"}
+description="Rui Build 64bit - Updated 14/11/2016"}
 
 
 \f0\fs26 \cf0 \expnd0\expndtw0\kerning0
