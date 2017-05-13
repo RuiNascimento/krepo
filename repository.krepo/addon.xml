@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <addon id="repository.krepo" name="KRepo" version="0.0.3" provider-name="kalashenicof">
+    <addon id="repository.krepo" name="KRepo" version="0.1.0" provider-name="kalashenicof">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
