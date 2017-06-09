@@ -80,7 +80,7 @@
 
 <addon id="plugin.video.teamblue"
        name="[COLOR blue]T[/COLOR]eam[COLOR blue]B[/COLOR]lue Live Events"
-       version="2.3"
+       version="2.4"
        provider-name="Eduardo Pinto">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
