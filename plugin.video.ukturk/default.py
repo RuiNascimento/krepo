@@ -25,7 +25,7 @@ Oooo000o = int ( O0O0OO0O0O0 . getSetting ( 'count' ) )
 IiIi11iIIi1Ii = O0O0OO0O0O0 . getSetting ( 'enable_meta' )
 Oo0O = xbmc . translatePath ( 'special://home/userdata/addon_data/' + OO0o )
 IiI = xbmc . translatePath ( os . path . join ( 'special://home/userdata/Database' , 'UKTurk.db' ) )
-ooOo = 'http://matsbuilds.uk/turk/ukturk2.jpg'
+ooOo = 'http://addoncloud.org/ukturk/UKTurk/ukturk2.jpg'
 Oo = 'https://www.googleapis.com/youtube/v3/search?q='
 o0O = '&regionCode=US&part=snippet&hl=en_US&key=AIzaSyAd-YEOqZz9nXVzGtn3KWzYLbLaajhqIDA&type=video&maxResults=50'
 IiiIII111iI = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId='
@@ -60,8 +60,8 @@ def Ooo0OO0oOO ( ) :
    if oO00oOo == 'true' :
     if OOOo0 <> '' :
      i1 ( o00 , Oo0oO0ooo , 1 , o0oOoO00o , O00ooooo00 )
- i1 ( 'Favourites' , IiI , 15 , 'http://matsbuilds.uk/turk/UKTurk/thumbs/new/Uk%20turk%20thumbnails%20favourites.jpg' , O00ooooo00 )
- i1 ( 'Search' , 'url' , 5 , 'http://matsbuilds.uk/turk/UKTurk/thumbs/new/Uk%20turk%20thumbnails%20search.jpg' , O00ooooo00 )
+ i1 ( 'Favourites' , IiI , 15 , 'http://addoncloud.org/ukturk/UKTurk/thumbs/new/Uk%20turk%20thumbnails%20favourites.jpg' , O00ooooo00 )
+ i1 ( 'Search' , 'url' , 5 , 'http://addoncloud.org/ukturk/UKTurk/thumbs/new/Uk%20turk%20thumbnails%20search.jpg' , O00ooooo00 )
  xbmc . executebuiltin ( 'Container.SetViewMode(500)' )
  if 98 - 98: I1111 * o0o0Oo0oooo0 / I1I1i1 * oO0 / IIIi1i1I
 def OOoOoo00oo ( url ) :
@@ -134,7 +134,7 @@ def o0 ( name , url , iconimage , fanart ) :
 def I1IIIii ( ) :
  O0O0OO0O0O0 . setSetting ( 'fav' , 'no' )
  Oo0oO0ooo = 'https://watchseries-online.pl/last-350-episodes'
- i1 ( 'New Episodes of TV Shows' , Oo0oO0ooo , 23 , 'http://matsbuilds.uk/turk/UKTurk/tv%20shows/Uk turk thumbnails new episodes tv shows1.jpg' , O00ooooo00 , description = '' )
+ i1 ( 'New Episodes of TV Shows' , Oo0oO0ooo , 23 , 'http://addoncloud.org/ukturk/UKTurk/tv%20shows/Uk turk thumbnails new episodes tv shows1.jpg' , O00ooooo00 , description = '' )
  if 56 - 56: OoO0O0o0Ooo
 def o0OO00oO ( url ) :
  O0O0OO0O0O0 . setSetting ( 'fav' , 'no' )
@@ -588,7 +588,7 @@ def O0oO ( url ) :
  oooO0oo0oOOOO = O00O0Oooo0oO . read ( )
  O00O0Oooo0oO . close ( )
  oooO0oo0oOOOO = oooO0oo0oOOOO . replace ( '</fanart>' , '<fanart>x</fanart>' ) . replace ( '<thumbnail></thumbnail>' , '<thumbnail>x</thumbnail>' ) . replace ( '<utube>' , '<link>https://www.youtube.com/watch?v=' ) . replace ( '</utube>' , '</link>' )
- if '{' in oooO0oo0oOOOO : oooO0oo0oOOOO = o0ooooO0o0O ( oooO0oo0oOOOO )
+ if '060105' in oooO0oo0oOOOO : oooO0oo0oOOOO = o0ooooO0o0O ( oooO0oo0oOOOO )
  return oooO0oo0oOOOO
  if 24 - 24: I1II1 * Ooooo
 def IiI1iiiIii ( ) :
@@ -810,27 +810,25 @@ def iiI11Iii ( ) :
  if int ( I1ii11 ) == 0 :
   Previous . setVisible ( False )
   if 74 - 74: I1Ii - Ooooo . I1I1i1
-def o0ooooO0o0O ( gobble ) :
- gobble = gobble . replace ( '}' , '' ) . replace ( '{' , '' ) . replace ( ',' , '' ) . replace ( ']' , '' ) . replace ( '[' , '' )
- gobble = gobble + '=='
- gobble = gobble . decode ( 'base64' )
- return gobble
- if 43 - 43: IIIIII11i1I / IIIi1i1I
-def OO0oo0O ( text ) :
- def Ii1i1iI ( m ) :
+def o0ooooO0o0O ( s ) :
+ i1III = [ s [ OoO0O00 : OoO0O00 + 3 ] for OoO0O00 in range ( 0 , len ( s ) , 3 ) ]
+ return '' . join ( chr ( int ( val ) ) for val in i1III )
+ if 49 - 49: i11iIiiIii % i1I1i1Ii11 . O0O0O0O00OooO
+def Ii1i1iI ( text ) :
+ def IIiI1 ( m ) :
   i1iIi = m . group ( 0 )
   if i1iIi [ : 3 ] == "&#x" : return unichr ( int ( i1iIi [ 3 : - 1 ] , 16 ) ) . encode ( 'utf-8' )
   else : return unichr ( int ( i1iIi [ 2 : - 1 ] ) ) . encode ( 'utf-8' )
- try : return re . sub ( "(?i)&#\w+;" , Ii1i1iI , text . decode ( 'ISO-8859-1' ) . encode ( 'utf-8' ) )
- except : return re . sub ( "(?i)&#\w+;" , Ii1i1iI , text . encode ( "ascii" , "ignore" ) . encode ( 'utf-8' ) )
- if 16 - 16: ooOoo0O / I1Ii / o0o0Oo0oooo0 * IIIi1i1I + I1I1i1 % ooOoo0O
+ try : return re . sub ( "(?i)&#\w+;" , IIiI1 , text . decode ( 'ISO-8859-1' ) . encode ( 'utf-8' ) )
+ except : return re . sub ( "(?i)&#\w+;" , IIiI1 , text . encode ( "ascii" , "ignore" ) . encode ( 'utf-8' ) )
+ if 17 - 17: ooOoo0O / ooOoo0O / O00
 def ooooooO0oo ( link ) :
  try :
-  ooo0o00 = re . compile ( '<layouttype>(.+?)</layouttype>' ) . findall ( link ) [ 0 ]
-  if ooo0o00 == 'thumbnail' : xbmc . executebuiltin ( 'Container.SetViewMode(500)' )
+  ii1I1IiiI1ii1i = re . compile ( '<layouttype>(.+?)</layouttype>' ) . findall ( link ) [ 0 ]
+  if ii1I1IiiI1ii1i == 'thumbnail' : xbmc . executebuiltin ( 'Container.SetViewMode(500)' )
   else : xbmc . executebuiltin ( 'Container.SetViewMode(50)' )
  except : pass
- if 99 - 99: I1II1 . O00 + I1111
+ if 78 - 78: OoO0O0o0Ooo . Ooooo . ooOoo0O . O00 + OOoO000O0OO
 o0o0o0oO0oOO = IiI1iiiIii ( ) ; Oo0oO0ooo = None ; o00 = None ; OOo0oO00ooO00 = None ; iiI = None ; o0oOoO00o = None
 try : iiI = urllib . unquote_plus ( o0o0o0oO0oOO [ "site" ] )
 except : pass
@@ -844,9 +842,9 @@ try : o0oOoO00o = urllib . unquote_plus ( o0o0o0oO0oOO [ "iconimage" ] )
 except : pass
 try : O00ooooo00 = urllib . unquote_plus ( o0o0o0oO0oOO [ "fanart" ] )
 except : pass
-try : I11IIi = urllib . unquote_plus ( [ "description" ] )
+try : i1ii1II1ii = urllib . unquote_plus ( [ "description" ] )
 except : pass
-if 66 - 66: OOoO000O0OO % IiIi1Iii1I1 . ooOoo0O
+if 28 - 28: i1iIIIiI1I
 if OOo0oO00ooO00 == None or Oo0oO0ooo == None or len ( Oo0oO0ooo ) < 1 : Ooo0OO0oOO ( )
 elif OOo0oO00ooO00 == 1 : o0 ( o00 , Oo0oO0ooo , o0oOoO00o , O00ooooo00 )
 elif OOo0oO00ooO00 == 2 : Oo0oOOo ( o00 , Oo0oO0ooo , o0oOoO00o )
@@ -872,6 +870,6 @@ elif OOo0oO00ooO00 == 21 : I1III ( Oo0oO0ooo )
 elif OOo0oO00ooO00 == 22 : O00o0O00 ( o00 , Oo0oO0ooo , o0oOoO00o )
 elif OOo0oO00ooO00 == 23 : o0OO00oO ( Oo0oO0ooo )
 elif OOo0oO00ooO00 == 24 : iIIIIii1 ( o00 , Oo0oO0ooo , o0oOoO00o )
-if 86 - 86: I1111
+if 61 - 61: ooOoo0O % ooOoo0O * Ooooo / Ooooo
 xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
 # dd678faae9ac167bc83abf78e5cb2f3f0688d3a3

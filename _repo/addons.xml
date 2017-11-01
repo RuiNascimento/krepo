@@ -121,7 +121,7 @@ Apenas disponibiliza conteúdos de terceiros
 </addon>
 
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="4.0.5" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="4.0.9" provider-name="UKTurk">
 
   <requires>
 
@@ -142,8 +142,6 @@ Apenas disponibiliza conteúdos de terceiros
     <import addon="script.video.F4mProxy" version="2.5.3"/>
 
     <import addon="script.module.liveresolver" version="0.1.24"/>
-
-    <import addon="repository.metalkettle" version="2.0.0"/>
 
   </requires>
 
@@ -190,6 +188,101 @@ Apenas disponibiliza conteúdos de terceiros
   </extension>
 </addon>
 
+<addon id="repository.aresproject" name="[COLOR blue]A[/COLOR][COLOR white]res Project[/COLOR]" version="0.1.0" provider-name="Ares Team">
+	<extension point="xbmc.addon.repository" name="AresRepo">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+	</dir>
+    <dir>
+		<info compressed="false">https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/ares-fortress/repo/master/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>AresProject.</summary>
+		<description>Ares-Project Addons Source. Visit Us At https://ares-project.uk</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+    <addon id="repository.blackeagle" name="Black_Eagles Repository" version="0.1.0" provider-name="Black_Eagle">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Black_Eagles Repository">
+            <info compressed="false">https://raw.github.com/the-black-eagle/repository.blackeagle/master/_repo/addons.xml</info>
+            <checksum>https://raw.github.com/the-black-eagle/repository.blackeagle/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/the-black-eagle/repository.blackeagle/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Black_Eagles Repository</summary>
+            <description>Contains add-ons for Kodi written by Black_Eagle.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.bubbles.1" version="2.0.0" name="Bubbles Repository 1" provider-name="Bubbles">
+	<extension point="xbmc.addon.repository" name="Bubbles Repository 1">
+		<dir>
+			<info compressed="false">https://github.com/trailerpark/trailerpark/raw/master/repository/common/addons.xml</info>
+			<checksum>https://github.com/trailerpark/trailerpark/raw/master/repository/common/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/trailerpark/trailerpark/raw/master/repository/common/</datadir>
+		</dir>
+		<info compressed="false">https://github.com/trailerpark/trailerpark/raw/master/repository/addons.xml</info>
+		<checksum>https://github.com/trailerpark/trailerpark/raw/master/repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/trailerpark/trailerpark/raw/master/repository/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bubbles Primary Repository</summary>
+		<description lang="en">The Bubbles repository for the addon, resources, extensions, and external addons. Any of the Bubbles mirror repositories can be used for installation and updates.</description>
+		<disclaimer lang="en">Bubbles and its developers are not in any way affiliated with Kodi, TVAddons, Premiumize, RealDebrid, EasyNews, or any of the sites and providers used in the addon. Bubbles is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes. Bubbles and its developers do not host, create, or distribute any of the content displayed in the addon, it simply searches public websites.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>http://bubbles4kodi.com</website>
+		<forum>https://www.tvaddons.ag/forums/bubbles-repository</forum>
+	</extension>
+</addon>
+
+<addon id="repository.colossus" name="[COLOR gold]Colossal Repository[/COLOR]" version="999.999.2" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossal Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Home Of 3rd Party Addons</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.k3l3vra" name="K3l3vra's Repository" version="1.0.1" provider-name="k3l3vra">
+    <extension point="xbmc.addon.repository" name="K3l3vra's Repository">
+        <dir>
+	        <info compressed="false">https://github.com/zqfaen/tva-common/raw/master/addons.xml</info>
+	        <checksum>https://github.com/zqfaen/tva-common/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://github.com/zqfaen/tva-common/raw/master/zips/</datadir>
+        </dir>
+        <info compressed="false">http://github.com/k3l3vra1/k3l3vra.repo/raw/master/addons.xml</info>
+        <checksum>http://github.com/k3l3vra1/k3l3vra.repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://github.com/k3l3vra1/k3l3vra.repo/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>This is my repo for addon development</summary>
+        <description>All K3l3vra's addons</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
     <addon id="repository.krepo" name="KRepo" version="0.1.0" provider-name="kalashenicof">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -207,6 +300,74 @@ Apenas disponibiliza conteúdos de terceiros
     </extension>
 </addon>
 
+<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.3.0" provider-name="noobsandnerds">
+        <extension point="xbmc.addon.repository" name="noobsandnerds Repository">
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+                </dir>
+                <dir>
+                        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
+                        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
+                        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
+                </dir>
+                <dir>
+                        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
+                        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
+                        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
+                </dir>
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/alfreddempsey3/repository.rage/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/alfreddempsey3/repository.rage/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/alfreddempsey3/repository.rage/master/zips/</datadir>
+                </dir>
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/</datadir>
+                        </dir>
+                <dir>
+                        <info compressed="false">https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml</info>
+                        <checksum>https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/OpenELEQ/repository.elysium/master/</datadir>
+                </dir>
+                        <dir>
+                        <info compressed="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/</datadir>
+                </dir>
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/midraal/repository.midraal/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/midraal/repository.midraal/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/midraal/repository.midraal/master/zips/</datadir>
+                </dir>
+                <dir minversion="14.0.0">
+                        <info compressed="false">https://github.com/OpenELEQ/repository.q/raw/master/openeleq-addons.xml</info>
+                        <checksum>https://github.com/OpenELEQ/repository.q/raw/master/openeleq-addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/OpenELEQ/repository.q/master/zips/</datadir>
+                </dir>
+                <dir minversion="16.0.0">
+                        <info compressed="false">https://github.com/OpenELEQ/repository.q.jarvis/raw/master/openeleq-addons.xml</info>
+                        <checksum>https://github.com/OpenELEQ/repository.q.jarvis/raw/master/openeleq-addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/OpenELEQ/repository.q.jarvis/master/zips/</datadir>
+                </dir>
+                <dir minversion="16.9.9">
+                        <info compressed="false">https://github.com/OpenELEQ/repository.q.krypton/raw/master/openeleq-addons.xml</info>
+                        <checksum>https://github.com/OpenELEQ/repository.q.krypton/raw/master/openeleq-addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/OpenELEQ/repository.q.krypton/master/zips/</datadir>
+                </dir>
+                <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Home of The Community Portal</summary>
+                <description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
+                <platform>all</platform>
+        </extension>
+</addon>
+
 <addon id="repository.plexus-streams" name="Plexus-Streams Repository" version="1.0.0" provider-name="D4FC">
 	<extension point="xbmc.addon.repository" name="Plexus-Streams Repository">
 		<info compressed="false">https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/addons.xml</info>
@@ -219,5 +380,119 @@ Apenas disponibiliza conteúdos de terceiros
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.q" name="[COLOR FF8ABEE2]Q[/COLOR]'s Repository" version="0.0.2.3" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
+	<extension point="xbmc.addon.repository"
+		name="[COLOR FF8ABEE2]Q[/COLOR]'s Add-on Repository">
+		<dir minversion="14.0.0">
+			<info compressed="false">https://github.com/OpenELEQ/repository.q/raw/master/openeleq-addons.xml</info>
+			<checksum>https://github.com/OpenELEQ/repository.q/raw/master/openeleq-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.q/master/zips/</datadir>
+		</dir>
+		<dir minversion="16.0.0">
+			<info compressed="false">https://github.com/OpenELEQ/repository.q.jarvis/raw/master/openeleq-addons.xml</info>
+			<checksum>https://github.com/OpenELEQ/repository.q.jarvis/raw/master/openeleq-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.q.jarvis/master/zips/</datadir>
+		</dir>
+		<dir minversion="16.9.9">
+			<info compressed="false">https://github.com/OpenELEQ/repository.q.krypton/raw/master/openeleq-addons.xml</info>
+			<checksum>https://github.com/OpenELEQ/repository.q.krypton/raw/master/openeleq-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.q.krypton/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR FF8ABEE2]Q[/COLOR]'s Add-on Repository</summary>
+		<summary lang="nl">[COLOR FF8ABEE2]Q[/COLOR]'s Addon Depot</summary>
+		<description lang="en">This is my repository. I can and will do whatever I want with it. Some stuff in here can and will overwrite allready installed addons. If you do not want that, do not install this repo!</description>
+		<description lang="nl">Dit is mijn depot. Ik kan hiermee doen en laten wat ik wil. Sommige dingen in dit depot kunnen en zullen reeds geinstalleerde addons overschrijven. Als je dat niet wil, installeer dit depot dan niet!</description>
+		<disclaimer lang="en">[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] did not make all the add-ons in this repository and is in no way responsible for their content.</disclaimer>
+		<disclaimer lang="nl">[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] heeft niet alle add-ons in dit depot gemaakt en is ook op geen enkele manier verantwoordelijk voor hun inhoud.</disclaimer>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support/showthread.php?tid=16754</forum>
+		<source>https://github.com/OpenELEQ/repository.q/tree/master/zips/repository.q-0.0.2.3.zip</source>
+		<email>OpenELEQ@gmail.com</email>
+	</extension>
+</addon>
+
+<addon id="repository.TeamBlue" name="[COLOR blue]T[/COLOR]eam[COLOR blue]Blue[/COLOR]" version="1.1" provider-name="TeamBlue Live Events">
+	<extension point="xbmc.addon.repository" name="VietKodi Addon Repository">
+		<info compressed="false">https://teamblue65repo.000webhostapp.com/Plugins/addons.xml</info>
+		<checksum>https://teamblue65repo.000webhostapp.com/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">https://teamblue65repo.000webhostapp.com/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="pt">Repositorio do Add-on TeamBlue</summary>
+		<description lang="pt">
+Repositorio para o add-on TeamBlue e alguns serviços necessários ao seu bom funcionamento
+NOTA: é necessario ter instalados:
+f4mtester – f4mproxy (repositorio Shani)
+Sports Devil – Plexus (incluidos neste repositorio)
+O criador deste addon nao possui nem esta ligado de nenhuma forma ao conteudo nele disponibilizado.
+Apenas disponibiliza conteudos de terceiros
+Visitem o meu grupo no facebook em: https://www.facebook.com/groups/TeamBlue.addon
+		</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.ukturk" name="UKTurk Addon Repository" version="1.0.6" provider-name="UKTurk">
+	<extension point="xbmc.addon.repository" name="UKTurk Addon Repository">
+	<dir>
+        	<info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        	<checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    	</dir>
+		<info compressed="false">https://raw.githubusercontent.com/restbite/UKT/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/restbite/UKT/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/restbite/UKT/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install UKTurk</summary>
+		<description>Install UKTurk</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.autoruns"
+       name="Autoruns"
+       version="1.0.1"
+       provider-name="fightnight">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=223015</forum>
+		<source>https://github.com/fightnight/fightnight-addons/tree/master/script.autoruns</source>
+		<summary lang="en">Disable startup services on Kodi</summary>
+		<summary lang="pt">Desactive serviços do arranque no Kodi</summary>
+		<description lang="en">You can disable startup services, improving Kodi internal speed.</description>
+		<description lang="pt">Pode desactivar serviços do arranque, melhorando a velocidade interna do Kodi.</description>
+		<disclaimer lang="en">Opensource addon not endorsed with Team Kodi.</disclaimer>
+		<disclaimer lang="pt">Addon opensource não afliado com a Equipa Kodi.</disclaimer>
+    </extension>
+</addon>
+
+<addon id="script.database.cleaner"
+      name="Video Database Cleaner"
+      version="1.0.0"
+      provider-name="black_eagle, BatterPudding.">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.myconnpy" version="1.1.7"/>
+  </requires>
+  <extension point="xbmc.python.script"
+            library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">A Script to clean Kodi's video database</summary>
+    <description lang="en">This program add-on will clean streams, old missing files and general junk from your video database. Works with both MySQL and SQLite libraries.[CR]As well as removing old streams and missing files, the script can optionally remove or rename a specific path.  Please see the README or the forum thread for details (http://forum.kodi.tv/showthread.php?tid=272112).</description>
+    <disclaimer lang="en_GB">Whilst every effort has been taken to ensure it doesn't, this script could break your database. Always make sure you back it up !!</disclaimer>
+    <forum>http://forum.kodi.tv/showthread.php?tid=272112</forum>
+  </extension>
 </addon>
 </addons>
