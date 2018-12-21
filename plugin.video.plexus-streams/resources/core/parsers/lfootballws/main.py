@@ -61,7 +61,7 @@ def lfootballws_streams(url):
 
 	links = []
 	names = []
-	streams = re.findall('<tr>.*?<td>.+?<td>.+?>([^<]*).+?<td>.+?<td>([^<]*).+?<td>([^<]*).+?<td>.+?<td>([^<]*).*?href="([^"]+)".*?</tr>', source, re.DOTALL)
+	streams = re.findall('<tr>.*?<td>.+?<td>.+?" *>([^<]*).+?<td>.+?<td>([^<]*).+?<td>([^<]*).+?<td>.+?<td>([^<]*).*?href="([^"]+)".*?</tr>', source, re.DOTALL)
 	for type, rate, channel, format, url in streams:
 		name = "[{0} {1}] {2} ({3})".format(type, rate, channel, format)
 		names.append(name)
