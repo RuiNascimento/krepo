@@ -5,9 +5,9 @@
         "config_md5": "568eedbb497ebe218df40584817bffb7"
     },
     "raspberry":{
-        "config_version": "20190116_2212",
-        "config_url": "https://archive.org/download/KodiBuild-Rui/kodi.20190116_2212.zip",
-        "config_md5": "568eedbb497ebe218df40584817bffb7"
+        "config_version": "20190121_2145",
+        "config_url": "https://archive.org/download/libreelec_build/kodi.20190121_2145.zip",
+        "config_md5": "2c2712c289832d883dd654754af653c2"
     
     }
 }
