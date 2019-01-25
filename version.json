@@ -1,8 +1,8 @@
 {
     "windows":{
-        "config_version": "20190116_2212",
-        "config_url": "https://archive.org/download/KodiBuild-Rui/kodi.20190116_2212.zip",
-        "config_md5": "568eedbb497ebe218df40584817bffb7"
+        "config_version": "20190125_1159",
+        "config_url": "https://archive.org/download/KodiBuild-Rui/kodi.20190125_1159.zip",
+        "config_md5": "9a358b8ea39eb3bc21596c29db6c26b7"
     },
     "raspberry":{
         "config_version": "20190121_2145",
